@@ -67,18 +67,6 @@
                 </executions>
               </plugin>
 
--->
-
-<build>
-  <plugins>
-    <plugin>
-      <groupId>org.sonarsource.scanner.maven</groupId>
-      <artifactId>sonar-maven-plugin</artifactId>
-      <version>3.9.1.2184</version> <!-- Check for the latest version -->
-    </plugin>
-  </plugins>
-</build>
-          
 <!--# Changes for Software Composition Analysis Scan using Snyk
     #By ASecurityGuru
     #5/12/2022 11:14 AM IST
