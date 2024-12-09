@@ -1,5 +1,5 @@
 version: 0.2
-env:
+#env:
     #secrets-manager:
       #TOKEN: end2end:end2end
 phases:
