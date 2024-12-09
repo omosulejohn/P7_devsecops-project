@@ -17,7 +17,7 @@ phases:
     - echo "Running static code analysis with SonarCloud"
     - mvn verify sonar:sonar \
           -Dsonar.projectKey=sonarqube-devsecops-test \
-          -Dsonar.organization=sonarqube-devsecops-test \
+          -Dsonar.organization=sonarqube_devsecops_test \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=75b60512b13c03229933e64beb9db04193364c10
 
