@@ -3,9 +3,13 @@ version: 0.2
     #secrets-manager:
       #TOKEN: end2end:end2end
 phases:
-  #install:
-    #runtime-versions:
-      #java: latest
+  install:
+    runtime-versions:
+      java: latest
+  pre_build:
+    commands:
+      - echo "Installing Maven dependencies"
+      - mvn install
   build:
     commands:
 
