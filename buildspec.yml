@@ -10,7 +10,7 @@ phases:
     commands:
 
 #Static Application Security Scan (SAST scan) using SonarCloud
-     - mvn verify sonar:sonar -Dsonar.projectKey=end2end -Dsonar.organization=end2end -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$TOKEN 
+     - mvn verify sonar:sonar -Dsonar.projectKey=johndevsecop -Dsonar.organization=JohnDevSecOp -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=d416cb6dec6ffe37006fdd83be9f0189af1c9295 
 
 #Quality Gates for Static Application Security Scan(SAST) using SonarCloud
 
