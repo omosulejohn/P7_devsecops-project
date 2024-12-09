@@ -43,5 +43,5 @@ phases:
 #Storing DAST Reports in S3 bucket
 
 #artifacts:
-  $files:
+  #files:
     #- zap_report.html
