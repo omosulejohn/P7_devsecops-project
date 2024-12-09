@@ -12,7 +12,7 @@ phases:
           -Dsonar.projectKey=sonarqube-devsecops-test \
           -Dsonar.organization=sonarqube_devsecops_test \
           -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=75b60512b13c03229933e64beb9db04193364c10
+          -Dsonar.login=b73c0cd5c726079111dcf572e0d1c16fb6937f96
 
 #Quality Gates for Static Application Security Scan(SAST) using SonarCloud
 
