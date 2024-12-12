@@ -7,6 +7,6 @@ phases:
     commands:
 #Static Application Security Scan (SAST scan) using SonarCloud
       - echo "Running static code analysis with SonarCloud"
-      - mvn verify sonar:sonar -Dsonar.projectKey=tes-test_awsdevsecops -Dsonar.organization=Test -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=7e2293f22878b2ae81895fbb992cde7913f1eb83
+      - mvn verify sonar:sonar -Dsonar.projectKey=tes-test_awsdevsecops -Dsonar.organization=Test -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=bbf523e2d1b047b6102aeb2b178bd55adcdc3ca5
 
 
